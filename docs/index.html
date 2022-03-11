@@ -16,25 +16,30 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__burger" href="https://adalab.es">
-        <i class="fa-solid fa-bars"></i></a>
+      <div class="header__fixed">
+        <a class="header__burger" href="https://adalab.es">
+          <i class="fa-solid fa-bars"></i
+        ></a>
 
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li><a class="header__links" href="https://adalab.es">Productos</a></li>
-          <li><a class="header__links" href="https://adalab.es">Colecciones</a></li>
-          <li><a class="header__links" href="https://adalab.es">Tienda</a></li>
-          <li><a class="header__links" href="https://adalab.es">Inicio</a></li>
-        </ul>
-      </nav>
-      <div class="header__container">
-        <img class="header__logo"
-        src="./assets/images/logo.png"
-        alt="Logo Open Spaces"
-        title="Logo Open Spaces"
-      />
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li><a class="header__links" href="https://adalab.es">Productos</a></li>
+            <li>
+              <a class="header__links" href="https://adalab.es">Colecciones</a>
+            </li>
+            <li><a class="header__links" href="https://adalab.es">Tienda</a></li>
+            <li><a class="header__links" href="https://adalab.es">Inicio</a></li>
+          </ul>
+        </nav>
       </div>
-      
+      <!-- <div class="header__container"> -->
+        <img
+          class="header__logo"
+          src="./assets/images/logo.png"
+          alt="Logo Open Spaces"
+          title="Logo Open Spaces"
+        />
+      <!-- </div> -->
     </header>
 
     <main>
@@ -94,12 +99,23 @@
       </section>
 
       <section class="low">
-        <article class="low__article">
-          <h2 class="low__article__title">Disfruta creando espacios</h2>
-          <p class="low__article__text">Una línea de productos diseñados para todos tus espacios</p>
-          <button class="low__article__button">Comprar ahora</button>
-        </article>
-        <img class="low__image" src="./assets/images/creando-espacios.jpg" alt="cesta de baño" title="cesta de baño">
+        <div class="low__container">
+          <article class="low__article">
+            <h2 class="low__article__title">Disfruta creando espacios</h2>
+            <p class="low__article__text">
+              Una línea de productos diseñados para todos tus espacios
+            </p>
+            <button class="low__article__button">Comprar ahora</button>
+          </article>
+        </div>
+        <div class="low__container2">
+          <img
+            class="low__image"
+            src="./assets/images/creando-espacios.jpg"
+            alt="cesta de baño"
+            title="cesta de baño"
+          />
+        </div>
       </section>
 
     </main>
@@ -148,7 +164,7 @@
 
       <article class="footer__article">
         <p class="article__title">Contacto</p>
-        <ul>
+        <ul class="article__nav__list">
           <li>
             <a class="article__links" href="mailto:ayuda@openspaces.com"
               >ayuda@openspaces.com</a
@@ -157,21 +173,21 @@
           <li>
             <a class="article__links" href="https://adalab.es">Socios</a>
           </li>
-          <li>
-            <a class="article__links" href="https://es.linkedin.com/">
-              <i class="fa-brands fa-linkedin-in"></i
+          <div class="footer__icons">
+            <a class="article__icon" href="https://es.linkedin.com/">
+              <i class="fa-brands fa-linkedin-in fa-lg"></i
             ></a>
-            <a class="article__links" href="https://www.instagram.com/?hl=es">
-              <i class="fa-brands fa-instagram"></i
+            <a class="article__icon" href="https://www.instagram.com/?hl=es">
+              <i class="fa-brands fa-instagram fa-lg"></i
             ></a>
-            <a class="article__links" href="https://twitter.com/?lang=es">
-              <i class="fa-brands fa-twitter"></i
+            <a class="article__icon" href="https://twitter.com/?lang=es">
+              <i class="fa-brands fa-twitter fa-lg"></i
             ></a>
-          </li>
+          </div>
         </ul>
       </article>
 
-      <a class="footer__arrow" href="./index.html#top"><i class="fa-solid fa-arrow-up-long"></i></a>
+      <a class="footer__arrow" href="./index.html#top"><i class="fa-solid fa-arrow-up-long fa-lg"></i></a>
 
       
     </footer>

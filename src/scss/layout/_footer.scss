@@ -1,38 +1,65 @@
-// maquetado con flexbox 
+// maquetado con flexbox
 
 .footer {
   background-color: $colorgreen;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-top: 56px;
+  // align-items: center;
 
-  // &__article {}
-  
+  &__article {
+    margin-left: 146px;
+  }
+
   // enlazar al inicio de la página
   // BONUS: hacer una pequeña animación en el botón del footer.
 
   &__arrow {
-    color: $colorgray;
+    color: $colorwhite;
+    margin-bottom: 20px;
+    position:relative;
+    left: 90%;
+  }
+
+  &__icons {
+    margin-top: 12px;
   }
 }
+
+.fa-brands {
+  padding-right: 6px;
+  width: 35px;
+}
+
 
 .article {
   &__title {
     font: 600 20px $fontpoppins;
     color: $colorgray;
     text-align: left;
+    letter-spacing: 0.5px;
   }
-  // &__nav {
-    
-  //   &__list {}
-    
-  // }
+  &__nav {
+    &__list {
+      margin: 10px 0 35px 0;
+      letter-spacing: 0.5px;
+      font: 14px $fontpoppins;
+      text-align: left;
+      text-decoration: none;
+      opacity: 0.9;
+      line-height: 1.5;
+    }
+  }
 
   &__links {
-    font: 14px $fontpoppins;
     color: $colorgray;
-    text-align: left;
     text-decoration: none;
   }
+
+  &__icon {
+    color: $colorwhite;
+  }
 }
+
+
+

@@ -1,14 +1,10 @@
 .hero {
-
   &__back {
     //   no funciona
     // background-image: url(../images/header.jpg);
     text-align: center;
     margin: 0 auto;
     max-width: 600px;
-    
-
-
 
     &__img {
       width: 100vw;
@@ -23,7 +19,6 @@
     position: absolute;
     top: 215px;
     left: 12%;
-
   }
 
   &__title {

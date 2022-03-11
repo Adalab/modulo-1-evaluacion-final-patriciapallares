@@ -8,19 +8,17 @@
     width: auto;
     height: 340px;
     background-color: $colorbeige;
-   }
+  }
 
   &__article {
     display: flex;
     flex-direction: column;
-    
 
     &__title {
       font: 600 24px $fontpoppins;
       color: $colorgreen;
       text-align: center;
-      padding-top: 87px 
-
+      padding-top: 87px;
     }
 
     &__text {
@@ -30,9 +28,8 @@
       padding: 10px 20px;
       letter-spacing: 0.5px;
       margin-bottom: 20px;
-
     }
-    
+
     // incluir una transición
     &__button {
       background-color: $colorgreen;
@@ -43,7 +40,7 @@
       padding: 12px 24px;
       box-sizing: border-box;
       border: 0ch;
-      align-self: center; 
+      align-self: center;
     }
   }
 
