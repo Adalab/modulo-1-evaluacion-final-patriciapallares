@@ -1,40 +1,46 @@
 // propiedades de CSS que se desee
 
-
 .mid {
   background-color: $colororange;
-
+  padding: 45px 0 40px 0px;
   &__article {
     display: flex;
     flex-direction: column;
 
     &__img {
-      width: 90px;
+      width: 120px;
       align-self: center;
-      padding: 45px 0 40px 0px;
       box-sizing: content-box;
+      margin-bottom: 10px;
     }
 
     &__title {
       font: 600 24px $fontpoppins;
       color: $colorwhite;
       text-align: center;
+      letter-spacing: 0.5px;
+      padding-bottom: 5px;
     }
 
     &__text {
       font: 14px $fontpoppins;
       color: $colorwhite;
       text-align: center;
+      padding-bottom: 12px;
+      letter-spacing: 0.5px;
     }
 
     // incluir una transición
     &__button {
-      font: 600 16px $fontpoppins;
+      font: 400 16px $fontpoppins;
       background: none;
       color: $colorwhite;
       align-self: center;
       text-decoration: underline;
       border: none;
+      padding: 12px;
+      box-sizing: content-box;
+      letter-spacing: 0.5px;
     }
   }
 }
