@@ -1,0 +1,40 @@
+// maquetado con CSS Grid
+
+.top {
+  background-color: $colorbeige;
+
+  &__title {
+    font: 600 24px $fontpoppins;
+    color: $colorgreen;
+    text-align: center;
+    padding: 40px 40px 0 40px;
+
+    &--capital {
+      text-transform: uppercase;
+    }
+  }
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+      width: 90px;
+      align-self: center;
+      padding: 40px;
+      box-sizing: content-box;
+    }
+
+    &__subtitle {
+      font: 600 20px $fontpoppins;
+      color: $colorgreen;
+      text-align: center;
+    }
+
+    &__text {
+      font: 16px $fontpoppins;
+      color: $colorgreen;
+      text-align: center;
+    }
+  }
+}

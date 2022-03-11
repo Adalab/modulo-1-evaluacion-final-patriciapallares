@@ -1,0 +1,39 @@
+// propiedades de CSS que se desee
+
+.low {
+  display: flex;
+  flex-direction: column;
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+    &__title {
+      font: 600 24px $fontpoppins;
+      color: $colorgreen;
+      text-align: center;
+    }
+
+    &__text {
+      font: 14px $fontpoppins;
+      color: $colorgreen;
+      text-align: center;
+    }
+    
+    // incluir una transición
+    &__button {
+      background-color: $colorgreen;
+      color: $colorwhite;
+      font: 600 16px $fontpoppins;
+      width: 176px;
+      height: 48px;
+      padding: 12px 24px;
+      box-sizing: border-box;
+      border: 0ch;
+      align-self: center;
+    }
+  }
+
+  &__image {
+    max-width: 320px;
+  }
+}

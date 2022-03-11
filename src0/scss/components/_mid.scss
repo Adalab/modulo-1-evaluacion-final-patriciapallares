@@ -1,0 +1,38 @@
+// propiedades de CSS que se desee
+
+
+.mid {
+  background-color: $colororange;
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+      width: 120px;
+      align-self: center;
+    }
+
+    &__title {
+      font: 600 24px $fontpoppins;
+      color: $colorwhite;
+      text-align: center;
+    }
+
+    &__text {
+      font: 14px $fontpoppins;
+      color: $colorwhite;
+      text-align: center;
+    }
+
+    // incluir una transición
+    &__button {
+      font: 600 16px $fontpoppins;
+      background: none;
+      color: $colorwhite;
+      align-self: center;
+      text-decoration: underline;
+      border: none;
+    }
+  }
+}

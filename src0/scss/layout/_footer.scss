@@ -1,0 +1,38 @@
+// maquetado con flexbox 
+
+.footer {
+  background-color: $colorgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  // &__article {}
+  
+  // enlazar al inicio de la página
+  // BONUS: hacer una pequeña animación en el botón del footer.
+
+  &__arrow {
+    color: $colorgray;
+  }
+}
+
+.article {
+  &__title {
+    font: 600 20px $fontpoppins;
+    color: $colorgray;
+    text-align: left;
+  }
+  // &__nav {
+    
+  //   &__list {}
+    
+  // }
+
+  &__links {
+    font: 14px $fontpoppins;
+    color: $colorgray;
+    text-align: left;
+    text-decoration: none;
+  }
+}
