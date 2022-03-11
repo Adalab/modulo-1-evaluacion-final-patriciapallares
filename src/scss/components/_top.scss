@@ -15,16 +15,22 @@
     }
   }
 
+  &__container {
+    display: grid;
+    grid-template-columns: 208px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+  }
+
   &__article {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     &__img {
       width: 90px;
-      align-self: center;
       padding: 45px 0 40px 0px;
       box-sizing: content-box;
+
     }
 
     &__subtitle {

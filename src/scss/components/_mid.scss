@@ -9,8 +9,10 @@
     flex-direction: column;
 
     &__img {
-      width: 120px;
+      width: 90px;
       align-self: center;
+      padding: 45px 0 40px 0px;
+      box-sizing: content-box;
     }
 
     &__title {
