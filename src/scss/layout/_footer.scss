@@ -7,12 +7,15 @@
   padding-top: 56px;
 
   @media all and (min-width: 900px) {
-    height: 276px;
+
     padding-top: 71px;
     padding-left: 100px;
   }
 
-  
+  @media all and (min-width: 1700px) {
+    height: 393px;
+    padding: 131px 0;
+  }
 
   &__container {
     @media all and (min-width: 900px) {
@@ -20,6 +23,11 @@
       flex-direction: row;
       justify-content: space-around;
       width: 714px;
+    }
+
+    @media all and (min-width: 1700px) {
+      margin-left: 250px;
+      width: 1224px;
     }
   }
 
@@ -43,6 +51,11 @@
     @media all and (min-width: 900px) {
       bottom: 30%;
     }
+
+    @media all and (min-width: 1700px) {
+      bottom: 45%;
+    }
+
   }
 
   &__icons {

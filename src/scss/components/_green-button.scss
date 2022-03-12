@@ -1,0 +1,25 @@
+.green__button {
+  background-color: $colorgreen;
+  color: $colorwhite;
+  font: 600 16px $fontpoppins;
+  width: 176px;
+  height: 48px;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  border: 0ch;
+  align-self: center;
+  text-transform: capitalize;
+  transition-duration: 0.4s;
+
+  @media all and (min-width: 900px) {
+    align-self: auto;
+  }
+}
+
+.green__button:hover {
+  background-color: transparent;
+  color: $colorgreen;
+  cursor: pointer;
+  width: fit-content;
+  border: 2px solid $colorgreen;
+}
