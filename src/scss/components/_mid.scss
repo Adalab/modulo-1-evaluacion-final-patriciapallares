@@ -3,13 +3,21 @@
 .mid {
   background-color: $colororange;
   padding: 45px 0 40px 0px;
+
   @media all and (min-width: 900px) {
     height: 352px;
+  }
+
+  @media all and (min-width: 1700px) {
+    height: 400px;
   }
 
   &__article {
     display: flex;
     flex-direction: column;
+
+    @media all and (min-width: 1700px) {
+    }
 
     &__img {
       width: 120px;
@@ -27,7 +35,9 @@
       @media all and (min-width: 900px) {
         padding-bottom: 15px;
       }
-    
+      @media all and (min-width: 1700px) {
+        font-size: 36px;
+      }
     }
 
     &__text {
@@ -35,6 +45,10 @@
       color: $colorwhite;
       text-align: center;
       padding-bottom: 12px;
+
+      @media all and (min-width: 1700px) {
+        font-size: 16px;
+      }
     }
 
     // incluir una transición

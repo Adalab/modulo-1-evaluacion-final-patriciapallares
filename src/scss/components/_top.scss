@@ -8,8 +8,12 @@
     height: 532px;
     padding: 60px;
   }
-  
-  
+
+  @media all and (min-width: 1700px) {
+    height: 611px;
+    padding-bottom: 0;
+    padding-top: 42px;
+  }
 
   &__title {
     font: 600 24px $fontpoppins;
@@ -17,6 +21,13 @@
     text-align: center;
     padding: 10px 40px 0 40px;
 
+    @media all and (min-width: 1700px) {
+      padding: 0;
+      width: 799px;
+      text-align: center;
+      margin-left: 400px;
+      font-size: 36px;
+    }
 
     &--capital {
       text-transform: uppercase;
@@ -35,7 +46,10 @@
       grid-template-columns: auto auto auto;
       gap: 42px;
     }
-
+    @media all and (min-width: 1700px) {
+      gap: 216px;
+      margin-top: 10px;
+    }
   }
 
   &__article {
@@ -47,12 +61,10 @@
       margin-top: 20px;
     }
 
-
     &__img {
       width: 90px;
       padding: 45px 0 40px 0px;
       box-sizing: content-box;
-
     }
 
     &__subtitle {

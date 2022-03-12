@@ -14,12 +14,22 @@
     @media all and (min-width: 900px) {
       margin: 75px 82px;
     }
+
+    @media all and (min-width: 1700px) {
+      display: none;
+    }
   }
 
   &__nav {
     display: none;
 
-    
+    @media all and (min-width: 1700px) {
+      display: inline;
+      margin-left: 280px;
+      margin-right: 81px;
+      padding-top: 76px;
+    }
+
     &__list {
       display: flex;
       flex-direction: row;
@@ -27,11 +37,16 @@
       text-decoration: none;
     }
   }
+
+  // a:visited no funciona :(
+
   &__links {
     text-decoration: none;
     font: 16px $fontpoppins;
+    color: $colorgreen;
+    padding-right: 30px;
+    letter-spacing: 0.5;
   }
-
 
   &__logo {
     margin-top: 19px;
@@ -44,7 +59,13 @@
     @media all and (min-width: 900px) {
       margin-top: 39px;
       margin-left: 0;
-      left: 40%
+      left: 40%;
     }
+
+    @media all and (min-width: 1700px) {
+      left: 45%;
+    }
+
+
   }
 }

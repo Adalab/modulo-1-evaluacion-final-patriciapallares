@@ -4,11 +4,22 @@
   display: flex;
   flex-direction: column;
 
+  @media all and (min-width: 1700px) {
+    flex-direction: row;
+    height: 571px;
+  }
+
 
   &__container {
     width: auto;
     height: 340px;
     background-color: $colorbeige;
+
+    @media all and (min-width: 1700px) {
+      width: 854px;
+      height: 100%;
+    }
+  
   
   }
 
@@ -16,12 +27,28 @@
   &__article {
     display: flex;
     flex-direction: column;
+    margin-top: 87px;
+
+
+    @media all and (min-width: 1700px) {
+      margin-top: 176px;
+      margin-left: 280px;
+    }
+
 
     &__title {
       font: 600 24px $fontpoppins;
       color: $colorgreen;
       text-align: center;
-      margin-top: 87px;
+
+      @media all and (min-width: 1700px) {
+        font-size: 36px;
+        width: 16ch; /* ch ~ el ancho de una letra */
+        text-align: left;
+        margin-bottom: 15px;
+        }
+  
+      
     }
 
     &__text {
@@ -31,6 +58,14 @@
       padding: 10px 20px;
       letter-spacing: 0.5px;
       margin-bottom: 20px;
+
+      @media all and (min-width: 1700px) {
+        font-size: 16px;
+        width: 300px;
+        padding: 0;
+        text-align: left;
+      }
+
     }
 
     // incluir una transición
@@ -46,6 +81,11 @@
       align-self: center;
       text-transform: capitalize;
 
+      @media all and (min-width: 1700px) {
+        align-self: auto;
+      }
+  
+
     }
   }
 
@@ -60,6 +100,13 @@
     @media all and (min-width: 900px) {
       height: 474px;
     }
+
+    @media all and (min-width: 1700px) {
+      max-width: 874px;
+      height: 100%;
+
+    }
+
   
   }
 }

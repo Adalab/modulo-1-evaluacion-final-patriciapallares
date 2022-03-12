@@ -31,6 +31,13 @@
       justify-content: flex-start;
       align-items: flex-start;
     }
+
+    @media all and (min-width: 1700px) {
+      display: inline;
+      margin-left: 280px;
+      margin-right: 81px;
+    }
+
   }
 
   &__title {
