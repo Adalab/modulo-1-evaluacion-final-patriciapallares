@@ -9,7 +9,7 @@
 
   &__burger {
     color: $colorgreen;
-    margin: 60px 33px;
+    margin: 55px 33px;
   }
 
   &__nav {
@@ -33,5 +33,6 @@
     align-self: center;
     position: absolute;
     left: 22.5%;
+    z-index: 10;
   }
 }
