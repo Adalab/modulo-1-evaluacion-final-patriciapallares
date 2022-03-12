@@ -8,16 +8,16 @@
 
   @media all and (min-width: 900px) {
     height: 276px;
-    padding-left: 118px;
     padding-top: 71px;
+    padding-left: 100px;
   }
 
   &__container {
     @media all and (min-width: 900px) {
-      display: grid;
-      grid-template-rows: auto;
-      grid-template-columns: 208px 208px 208px;
-      gap: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 714px;
     }
   }
 
@@ -27,7 +27,6 @@
     @media all and (min-width: 900px) {
       margin-left: 0;
     }
-
   }
 
   // enlazar al inicio de la página
@@ -42,12 +41,10 @@
     @media all and (min-width: 900px) {
       bottom: 30%;
     }
-
   }
 
   &__icons {
     margin-top: 12px;
-
   }
 }
 
