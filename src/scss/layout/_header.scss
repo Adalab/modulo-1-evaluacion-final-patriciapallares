@@ -10,6 +10,10 @@
   &__burger {
     color: $colorgreen;
     margin: 55px 33px;
+
+    @media all and (min-width: 900px) {
+      margin: 75px 82px;
+    }
   }
 
   &__nav {
@@ -34,5 +38,11 @@
     position: absolute;
     left: 22.5%;
     z-index: 10;
+
+    @media all and (min-width: 900px) {
+      margin-top: 39px;
+      margin-left: 0;
+      left: 40%
+    }
   }
 }

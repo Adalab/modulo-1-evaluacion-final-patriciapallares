@@ -1,6 +1,5 @@
 .hero {
   &__back {
-
     &__img {
       // width: 100vw;
       // height: 80vh;
@@ -16,7 +15,6 @@
       position: relative;
       top: 0;
       display: block;
-
     }
   }
 
@@ -26,6 +24,13 @@
     position: absolute;
     top: 45%;
     left: 12%;
+
+    @media all and (min-width: 900px) {
+      left: 0;
+      margin-left: 147px;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
   }
 
   &__title {
@@ -33,6 +38,13 @@
     color: $colorgreen;
     text-align: center;
     margin-bottom: 24px;
+
+    @media all and (min-width: 900px) {
+      font-size: 36px;
+      width: 16ch; /* ch ~ el ancho de una letra */
+      text-align: left;
+      margin-bottom: 15px;
+    }
   }
 
   // incluir una transición
@@ -46,5 +58,10 @@
     box-sizing: border-box;
     border: 0ch;
     align-self: center;
+
+    @media all and (min-width: 900px) {
+    align-self: auto;
+    }
+
   }
 }
