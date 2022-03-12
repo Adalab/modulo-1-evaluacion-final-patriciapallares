@@ -1,4 +1,5 @@
-.green__button {
+.green__button,
+.green__button--left {
   background-color: $colorgreen;
   color: $colorwhite;
   font: 600 16px $fontpoppins;
@@ -10,7 +11,9 @@
   align-self: center;
   text-transform: capitalize;
   transition-duration: 0.4s;
+}
 
+.green__button--left {
   @media all and (min-width: 900px) {
     align-self: auto;
   }
