@@ -38,6 +38,7 @@
     color: $colorgreen;
     text-align: center;
     margin-bottom: 24px;
+    letter-spacing: 0.5px;
 
     @media all and (min-width: 900px) {
       font-size: 36px;
@@ -58,6 +59,7 @@
     box-sizing: border-box;
     border: 0ch;
     align-self: center;
+    text-transform: capitalize;
 
     @media all and (min-width: 900px) {
     align-self: auto;

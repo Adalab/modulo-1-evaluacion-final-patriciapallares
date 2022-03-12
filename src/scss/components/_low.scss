@@ -4,11 +4,14 @@
   display: flex;
   flex-direction: column;
 
+
   &__container {
     width: auto;
     height: 340px;
     background-color: $colorbeige;
+  
   }
+
 
   &__article {
     display: flex;
@@ -18,7 +21,7 @@
       font: 600 24px $fontpoppins;
       color: $colorgreen;
       text-align: center;
-      padding-top: 87px;
+      margin-top: 87px;
     }
 
     &__text {
@@ -41,11 +44,22 @@
       box-sizing: border-box;
       border: 0ch;
       align-self: center;
+      text-transform: capitalize;
+
     }
   }
 
   &__image {
-    max-width: 100vw;
+    height: 300px;
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+    top: 0;
     display: block;
+
+    @media all and (min-width: 900px) {
+      height: 474px;
+    }
+  
   }
 }
