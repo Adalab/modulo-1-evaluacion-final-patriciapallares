@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  @media all and (min-width: 1700px) {
+  @media all and (min-width: 1200px) {
     flex-direction: row;
     height: 571px;
   }
@@ -12,7 +12,7 @@
     height: 340px;
     background-color: $colorbeige;
 
-    @media all and (min-width: 1700px) {
+    @media all and (min-width: 1200px) {
       width: 50.24%;      
       height: 100%;
     }
@@ -24,9 +24,9 @@
     margin-top: 87px;
     align-items: center;
 
-    @media all and (min-width: 1700px) {
+    @media all and (min-width: 1200px) {
       margin-top: 176px;
-      margin-left: 32.79%;
+      margin-left: 30%;
       align-items: flex-start;
     }
 
@@ -35,7 +35,7 @@
       color: $colorgreen;
       text-align: center;
 
-      @media all and (min-width: 1700px) {
+      @media all and (min-width: 1200px) {
         font-size: 36px;
         width: 16ch; /* ch ~ el ancho de una letra */
         text-align: left;
@@ -51,7 +51,7 @@
       letter-spacing: 0.5px;
       margin-bottom: 20px;
 
-      @media all and (min-width: 1700px) {
+      @media all and (min-width: 1200px) {
         font-size: 16px;
         width: 32ch;
         padding: 0;
@@ -64,11 +64,11 @@
     height: 300px;
     width: 100vw;
 
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 768px) {
       height: 474px;
     }
 
-    @media all and (min-width: 1700px) {
+    @media all and (min-width: 1200px) {
       max-width: 51.41%;
       height: 100%;
     }

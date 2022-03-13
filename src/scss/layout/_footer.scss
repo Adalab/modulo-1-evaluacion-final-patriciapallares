@@ -6,26 +6,26 @@
   flex-direction: column;
   padding-top: 56px;
 
-  @media all and (min-width: 900px) {
+  @media all and (min-width: 768px) {
     padding-top: 71px;
     padding-left: 11%;
   }
 
-  @media all and (min-width: 1700px) {
+  @media all and (min-width: 1200px) {
     height: 393px;
     padding: 131px 0;
   }
 
   &__container {
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 768px) {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       width: 82%;
     }
 
-    @media all and (min-width: 1700px) {
-      margin-left: 14.7%;
+    @media all and (min-width: 1200px) {
+      margin-left: 13%;
       width: 72%;
     }
   }
@@ -33,7 +33,7 @@
   &__article {
     margin-left: 35%;
 
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 768px) {
       margin-left: 10%;
     }
   }
@@ -47,11 +47,7 @@
     position: relative;
     left: 90%;
 
-    @media all and (min-width: 900px) {
-      transform: translateY(-350%);
-    }
-
-    @media all and (min-width: 1700px) {
+    @media all and (min-width: 1200px) {
       bottom: 45%;
     }
   }

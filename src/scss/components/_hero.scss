@@ -17,15 +17,18 @@
     top: 45%;
     left: 12%;
 
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 768px) {
       left: 0;
-      margin-left: 147px;
+      margin-left: 18%;
       justify-content: flex-start;
       align-items: flex-start;
     }
 
+    @media all and (min-width: 1200px) {
+      margin-left: 12%;
+    }
+
     @media all and (min-width: 1700px) {
-      display: inline;
       margin-left: 16.5%;
     }
   }
@@ -37,7 +40,7 @@
     margin-bottom: 24px;
     letter-spacing: 0.5px;
 
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 768px) {
       font-size: 36px;
       width: 16ch;
       text-align: left;

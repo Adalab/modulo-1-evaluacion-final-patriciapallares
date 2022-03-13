@@ -14,13 +14,13 @@
 }
 
 .green__button--hero {
-  @media all and (min-width: 900px) {
+  @media all and (min-width: 768px) {
     align-self: auto;
   }
 }
 
 .green__button--low {
-  @media all and (min-width: 1700px) {
+  @media all and (min-width: 1200px) {
     align-self: auto;
   }
 }
