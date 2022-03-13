@@ -1,5 +1,5 @@
-.green__button,
-.green__button--left {
+.green__button--low,
+.green__button--hero {
   background-color: $colorgreen;
   color: $colorwhite;
   font: 600 16px $fontpoppins;
@@ -13,8 +13,14 @@
   transition-duration: 0.4s;
 }
 
-.green__button--left {
+.green__button--hero {
   @media all and (min-width: 900px) {
+    align-self: auto;
+  }
+}
+
+.green__button--low {
+  @media all and (min-width: 1700px) {
     align-self: auto;
   }
 }

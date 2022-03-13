@@ -6,7 +6,7 @@
 
   @media all and (min-width: 900px) {
     height: 532px;
-    padding: 60px;
+    padding: 60px 0;
   }
 
   @media all and (min-width: 1700px) {
@@ -23,9 +23,9 @@
 
     @media all and (min-width: 1700px) {
       padding: 0;
-      width: 799px;
+      width: 49%;
       text-align: center;
-      margin-left: 400px;
+      margin-left: 23.5%;
       font-size: 36px;
     }
 
@@ -36,7 +36,7 @@
 
   &__container {
     display: grid;
-    grid-template-columns: 208px;
+    grid-template-columns: 50%;
     grid-template-rows: auto auto auto;
     justify-content: center;
 
@@ -44,10 +44,11 @@
       display: grid;
       grid-template-rows: 249px;
       grid-template-columns: auto auto auto;
-      gap: 42px;
+      gap: 5.6%;
     }
     @media all and (min-width: 1700px) {
-      gap: 216px;
+      gap: 13%;
+
       margin-top: 10px;
     }
   }

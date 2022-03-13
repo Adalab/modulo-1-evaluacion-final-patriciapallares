@@ -13,7 +13,7 @@
     background-color: $colorbeige;
 
     @media all and (min-width: 1700px) {
-      width: 854px;
+      width: 50.24%;      
       height: 100%;
     }
   }
@@ -22,12 +22,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 87px;
-    justify-content: center;
     align-items: center;
 
     @media all and (min-width: 1700px) {
       margin-top: 176px;
-      margin-left: 280px;
+      margin-left: 32.79%;
+      align-items: flex-start;
     }
 
     &__title {
@@ -53,29 +53,34 @@
 
       @media all and (min-width: 1700px) {
         font-size: 16px;
-        width: 300px;
+        width: 32ch;
         padding: 0;
         text-align: left;
       }
     }
   }
 
-  &__image {
+  &__container2 {
     height: 300px;
     width: 100vw;
-    object-fit: cover;
-    position: relative;
-    top: 0;
-    display: block;
 
     @media all and (min-width: 900px) {
       height: 474px;
     }
 
     @media all and (min-width: 1700px) {
-      max-width: 874px;
+      max-width: 51.41%;
       height: 100%;
     }
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    display: block;
   }
 }
 
