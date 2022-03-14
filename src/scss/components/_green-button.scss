@@ -11,19 +11,16 @@
   text-transform: capitalize;
   transition-duration: 0.4s;
 }
-
 .green__button--hero {
   @media all and (min-width: 768px) {
     align-self: auto;
   }
 }
-
 .green__button--low {
   @media all and (min-width: 1200px) {
     align-self: auto;
   }
 }
-
 .green__button--low:hover,
 .green__button--hero:hover {
   background-color: transparent;
