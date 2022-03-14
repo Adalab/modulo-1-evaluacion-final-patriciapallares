@@ -1,6 +1,3 @@
-// Para mobile con 24px
-// Para tablet con 36px, 24px, 30px, 30px
-// Para desktop con 36px
 
 @mixin text($fontSize, $fontWeight, $fontColor, $fontSpace) {
   font-family: Poppins;
@@ -10,5 +7,3 @@
   letter-spacing: $fontSpace;
   color: $fontColor;
 }
- 
-

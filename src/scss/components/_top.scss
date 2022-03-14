@@ -4,15 +4,17 @@
   background-color: $colorbeige;
   padding: 30px 0;
 
+
   @media all and (min-width: 768px) {
-    height: 532px;
-    padding: 60px 0;
+    // height: 532px; para 900px
+    height: fit-content;
+    padding: 60px 0 130px 0;
   }
 
-  @media all and (min-width: 1200px) {
-    height: 611px;
-    padding-bottom: 0;
-    padding-top: 42px;
+  @media all and (min-width: 1200px) { 
+    // height: 611px; para 1700px
+    height: fit-content;
+
   }
 
   &__title {

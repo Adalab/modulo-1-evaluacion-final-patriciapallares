@@ -25,7 +25,8 @@
   }
 }
 
-.green__button--low:hover , .green__button--hero:hover {
+.green__button--low:hover,
+.green__button--hero:hover {
   background-color: transparent;
   color: $colorgreen;
   cursor: pointer;
