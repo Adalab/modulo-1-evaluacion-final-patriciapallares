@@ -1,43 +1,34 @@
 .low {
   display: flex;
   flex-direction: column;
-
   @media all and (min-width: 1200px) {
     flex-direction: row;
-    // height: 571px;
     height: fit-content;
   }
-
   &__container1 {
     width: auto;
     height: fit-content;
     padding: 0 0 80px 0;
     background-color: $colorbeige;
-
     @media all and (min-width: 1200px) {
       width: 50.24%;
       height: auto;
     }
   }
-
   &__article {
     display: flex;
     flex-direction: column;
     margin-top: 87px;
     align-items: center;
-
     @media all and (min-width: 1200px) {
       margin: 150px 0 40px 25%;
       align-items: flex-start;
     }
-
     &__title {
       @include text(24px, 600, $colorgreen, 0.5px);
-
       @media all and (min-width: 768px) {
         font-size: 30px;
       }
-
       @media all and (min-width: 1200px) {
         font-size: 36px;
         width: 16ch;
@@ -45,7 +36,6 @@
         margin-bottom: 15px;
       }
     }
-
     &__text {
       font: 14px $fontpoppins;
       color: $colorgreen;
@@ -53,7 +43,6 @@
       padding: 10px 20px;
       letter-spacing: 0.5px;
       margin-bottom: 20px;
-
       @media all and (min-width: 1200px) {
         font-size: 16px;
         width: 32ch;
@@ -62,21 +51,17 @@
       }
     }
   }
-
   &__container2 {
     height: 300px;
     width: 100vw;
-
     @media all and (min-width: 768px) {
       height: 474px;
     }
-
     @media all and (min-width: 1200px) {
       max-width: 51.41%;
       height: auto;
     }
   }
-
   &__image {
     height: 100%;
     width: 100%;

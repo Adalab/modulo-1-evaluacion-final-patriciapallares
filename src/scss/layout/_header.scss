@@ -1,38 +1,29 @@
-// maquetado con flexbox
-
 .header {
   &__fixed {
     position: fixed;
     display: flex;
     z-index: 9;
   }
-
   &__burger {
     color: $colorgreen;
     margin: 55px 33px;
-
     @media all and (min-width: 768px) {
       margin: 75px 82px;
     }
-
     @media all and (min-width: 1200px) {
       display: none;
     }
   }
-
   &__nav {
     display: none;
-
     @media all and (min-width: 1200px) {
       display: inline;
       margin-left: 40%;
       padding-top: 76px;
     }
-
     @media all and (min-width: 1700px) {
       margin-left: 70%;
     }
-
     &__list {
       display: flex;
       flex-direction: row;
@@ -40,7 +31,6 @@
       text-decoration: none;
     }
   }
-
   &__links {
     text-decoration: none;
     font: 16px $fontpoppins;
@@ -48,20 +38,15 @@
     padding-right: 30px;
     letter-spacing: 0.5;
   }
-
   &__logo {
     margin-top: 19px;
-    align-self: center;
     position: absolute;
     left: 30%;
     z-index: 10;
-
     @media all and (min-width: 768px) {
       margin-top: 39px;
-      margin-left: 0;
       left: 42.5%;
     }
-
     @media all and (min-width: 1200px) {
       left: 45%;
     }

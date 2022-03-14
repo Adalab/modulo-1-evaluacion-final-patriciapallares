@@ -1,28 +1,19 @@
-// propiedades de CSS que se desee
-
 .mid {
   background-color: $colororange;
   padding: 45px 5px 40px 5px;
-
   @media all and (min-width: 768px) {
-    // height: 352px; para 900px
     height: fit-content;
   }
-
   @media all and (min-width: 1200px) {
-    // height: 400px; para 1700px
     height: fit-content;
     padding-bottom: 50px;
   }
-
   &__article {
     display: flex;
     flex-direction: column;
-
     &__title {
       @include text(24px, 600, $colorwhite, 0.5px);
       padding-bottom: 5px;
-
       @media all and (min-width: 768px) {
         font-size: 30px;
         padding-bottom: 15px;
@@ -31,18 +22,15 @@
         font-size: 36px;
       }
     }
-
     &__text {
       font: 14px $fontpoppins;
       color: $colorwhite;
       text-align: center;
       padding-bottom: 12px;
-
       @media all and (min-width: 1200px) {
         font-size: 16px;
       }
     }
-
     &__button {
       font: 400 16px $fontpoppins;
       background: none;
@@ -53,9 +41,8 @@
       padding: 12px;
       box-sizing: content-box;
       letter-spacing: 0.5px;
-      transition-duration: 0.2s;
+      transition-duration: 0.4s;
     }
-
     &__button:hover {
       background-color: $colorwhite;
       color: $colororange;

@@ -1,34 +1,22 @@
-// maquetado con CSS Grid
-
 .top {
   background-color: $colorbeige;
   padding: 30px 0;
-
-
   @media all and (min-width: 768px) {
-    // height: 532px; para 900px
     height: fit-content;
     padding: 60px 0 130px 0;
   }
-
-  @media all and (min-width: 1200px) { 
-    // height: 611px; para 1700px
+  @media all and (min-width: 1200px) {
     height: fit-content;
-
   }
-
   &__title {
     @include text(24px, 600, $colorgreen, 0.5px);
     padding: 10px 40px 0 40px;
-
     @media all and (min-width: 1200px) {
       padding: 0;
       width: 34ch;
       margin-left: 20%;
       font-size: 36px;
     }
-
-    // por si acaso
     @media all and (min-width: 1700px) {
       padding: 0;
       width: 49%;
@@ -36,18 +24,15 @@
       margin-left: 23.5%;
       font-size: 36px;
     }
-
     &--capital {
       text-transform: uppercase;
     }
   }
-
   &__container {
     display: grid;
     grid-template-columns: 50%;
     grid-template-rows: auto auto auto;
     justify-content: center;
-
     @media all and (min-width: 768px) {
       display: grid;
       grid-template-rows: 249px;
@@ -56,31 +41,25 @@
     }
     @media all and (min-width: 1200px) {
       gap: 13%;
-
       margin-top: 10px;
     }
   }
-
   &__article {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     @media all and (min-width: 768px) {
       margin-top: 20px;
     }
-
     &__img {
       width: 90px;
       padding: 45px 0 40px 0px;
       box-sizing: content-box;
     }
-
     &__subtitle {
       @include text(20px, 600, $colorgreen, 0.5px);
       width: 208px;
     }
-
     &__text {
       @include text(16px, 400, $colorgreen, 0px);
       width: 208px;
