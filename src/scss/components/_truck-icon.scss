@@ -1,0 +1,55 @@
+.mid__article__img {
+  width: 120px;
+  align-self: center;
+  box-sizing: content-box;
+  margin-bottom: 10px;
+}
+
+// el cursor necesita hover por la izq para que no se pille la animación :(
+
+.mid__article__img:hover {
+  animation-name: run;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  // animation-delay: 2s;
+}
+
+@keyframes run {
+    0% {
+      transform: translateX(-90%);
+    }
+    10% {
+      transform: translateX(-80%);
+    }
+    20% {
+      transform: translateX(-70%);
+    }
+    30% {
+      transform: translateX(-60%);
+    }
+    40% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(-40%);
+    }
+    60% {
+      transform: translateX(-30%);
+    }
+    70% {
+      transform: translateX(-20%);
+    }
+    80% {
+      transform: translateX(-10%);
+    }
+    90% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

@@ -1,9 +1,12 @@
 @import "core/variables";
 @import "core/reset";
+@import "core/mixins";
 @import "components/hero";
 @import "components/top";
 @import "components/mid";
 @import "components/low";
+@import "components/arrow";
+@import "components/truck-icon";
 @import "layout/header";
 @import 'layout/footer';
 @import "components/green-button";

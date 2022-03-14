@@ -34,15 +34,12 @@
   }
 
   &__title {
-    font: 600 24px $fontpoppins;
-    color: $colorgreen;
-    text-align: center;
+    @include text(24px, 600, $colorgreen, 0.5px);
     margin-bottom: 24px;
-    letter-spacing: 0.5px;
 
     @media all and (min-width: 768px) {
-      font-size: 36px;
       width: 16ch;
+      font-size: 36px;
       text-align: left;
       margin-bottom: 15px;
     }
