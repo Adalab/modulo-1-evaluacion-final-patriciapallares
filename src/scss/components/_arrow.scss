@@ -12,6 +12,8 @@
   @media all and (min-width: 1200px) {
     transform: translateY(-1600%);
   }
+
+
 }
 .footer__arrow {
   color: $colorwhite;
@@ -26,5 +28,12 @@
   }
   100% {
     transform: scale(1.5);
+  }
+}
+
+
+@media all and (max-width: 768px) {
+  .footer__arrow {
+    display: none;
   }
 }
